@@ -75,7 +75,7 @@ button.buscar_mais {
     border-radius: 1px 0px 20px 20px;
     display: block;
     text-align: center;
-    width: 300px;
+    width: -webkit-fill-available;
 }
 
 .container_personagens {
