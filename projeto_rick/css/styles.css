@@ -60,6 +60,8 @@ button.buscar_mais {
     font-size: 24px;
     color: #4D4D4D;
     background: #11B0C8;
+    margin: 40px 0 0 0;
+    cursor: pointer;
 }
 
 
@@ -69,12 +71,19 @@ button.buscar_mais {
 
 .text_personagem{
     background: #11B0CB;
-    padding: 30px 20px;
+    padding: 30px;
     border-radius: 1px 0px 20px 20px;
     display: block;
+    text-align: center;
+    width: 300px;
 }
 
-
+.container_personagens {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 70px auto 0 auto;
+}
 
 @media (max-width: 600px) {
     form.rick {
@@ -87,4 +96,15 @@ button.buscar_mais {
         padding: 20px;
     }
 
+}
+
+.container_personagens {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 70px auto 0 auto;
+}
+
+.card img {
+    border-radius: 35px 35px 0px 0px;
 }
