@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+.wrapper,
+header {
+    max-width: 1660px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+
+input[type="Personagens"] {
+    border: none;
+    outline: none;
+    background: #1A1A1A;
+    width: 100%;
+    padding: 15px;
+    border-radius: 61px;
+    color: #fff;
+}
+
+form.rick {
+    width: 786px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 100px;
+}
+
+form.rick button {
+    position: absolute;
+    background: transparent;
+    border: none;
+    right: 30px;
+}
+
+button.buscar_mais {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    max-width: 295px;
+    width: 100%;
+    font-size: 24px;
+    color: #4D4D4D;
+    background: #11B0C8;
+}
+
+
+.card {
+    margin: 10px;
+}
+
+.text_personagem{
+    background: #11B0CB;
+    padding: 30px 20px;
+    border-radius: 1px 0px 20px 20px;
+    display: block;
+}
+
+
+
+@media (max-width: 600px) {
+    form.rick {
+        width: 100%;
+    }
+
+    .wrapper,
+    header {
+        width: 100%;
+        padding: 20px;
+    }
+
+}
