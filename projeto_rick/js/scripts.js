@@ -1,5 +1,6 @@
 //https://rickandmortyapi.com/api/
 
+
 const container = document.querySelector(".container_personagens")
 const button = document.querySelector("button.buscar_mais")
 
@@ -57,3 +58,8 @@ async function main() {
 }
 
 main()
+
+
+
+
+
